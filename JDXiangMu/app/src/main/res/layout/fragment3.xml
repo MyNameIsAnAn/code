@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+  android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+       <!-- <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sys"
+            android:src="@drawable/sao_kind"
+            android:layout_centerVertical="true"
+            />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:src="@mipmap/order_find"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:id="@+id/i"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="120dp"
+        android:hint="请输入搜索关键字"
+        android:id="@+id/j"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="270dp"
+        android:src="@mipmap/root"
+        />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="320dp"
+        android:src="@mipmap/pack"
+        />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+
+        android:layout_marginLeft="400dp"
+
+        android:src="@mipmap/order_msg"
+        />-->
+        <com.bw.jdxiangmu.shouye.zidingyiview.ShouYe_SouSuo_view
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+        </com.bw.jdxiangmu.shouye.zidingyiview.ShouYe_SouSuo_view>
+
+</RelativeLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="9"
+    >
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/rlv"
+        android:layout_weight="3"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/qiche"
+                />
+
+
+            <ExpandableListView
+                android:layout_width="match_parent"
+                android:layout_weight="9"
+                android:layout_height="0dp"
+                android:id="@+id/elist"
+                >
+
+            </ExpandableListView>
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+</LinearLayout>
